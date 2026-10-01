@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+
 
 android {
+    namespace "com.termux.shared"
     compileSdkVersion project.properties.compileSdkVersion.toInteger()
     ndkVersion = System.getenv("JITPACK_NDK_VERSION") ?: project.properties.ndkVersion
 
@@ -72,10 +73,10 @@ dependencies {
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
-    classifier "sources"
+    archiveClassifier.set("sources")
 }
 
-afterEvaluate {
+if (false) {
     publishing {
         publications {
             // Creates a Maven publication called "release".
