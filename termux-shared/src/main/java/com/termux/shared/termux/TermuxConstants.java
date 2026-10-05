@@ -970,7 +970,7 @@ public final class TermuxConstants {
 
 
         /** Termux app settings activity name. */
-        public static final String TERMUX_SETTINGS_ACTIVITY_NAME = TERMUX_PACKAGE_NAME + ".app.activities.SettingsActivity"; // Default: "com.termux.app.activities.SettingsActivity"
+        public static final String TERMUX_SETTINGS_ACTIVITY_NAME = "com.termux.app.activities.SettingsActivity"; // Default: "com.termux.app.activities.SettingsActivity"
 
 
 
@@ -1201,10 +1201,10 @@ public final class TermuxConstants {
     public static final class TERMUX_API_APP {
 
         /** Termux:API app main activity name. */
-        public static final String TERMUX_API_MAIN_ACTIVITY_NAME = TERMUX_API_PACKAGE_NAME + ".activities.TermuxAPIMainActivity"; // Default: "com.termux.api.activities.TermuxAPIMainActivity"
+        public static final String TERMUX_API_MAIN_ACTIVITY_NAME = "com.termux.api.activities.TermuxAPIMainActivity"; // Default: "com.termux.api.activities.TermuxAPIMainActivity"
 
         /** Termux:API app launcher activity name. This is an `activity-alias` for {@link #TERMUX_API_MAIN_ACTIVITY_NAME} used for launchers with {@link Intent#CATEGORY_LAUNCHER}. */
-        public static final String TERMUX_API_LAUNCHER_ACTIVITY_NAME = TERMUX_API_PACKAGE_NAME + ".activities.TermuxAPILauncherActivity"; // Default: "com.termux.api.activities.TermuxAPILauncherActivity"
+        public static final String TERMUX_API_LAUNCHER_ACTIVITY_NAME = "com.termux.api.activities.TermuxAPILauncherActivity"; // Default: "com.termux.api.activities.TermuxAPILauncherActivity"
 
     }
 
@@ -1218,10 +1218,10 @@ public final class TermuxConstants {
     public static final class TERMUX_BOOT_APP {
 
         /** Termux:Boot app main activity name. */
-        public static final String TERMUX_BOOT_MAIN_ACTIVITY_NAME = TERMUX_BOOT_PACKAGE_NAME + ".activities.TermuxBootMainActivity"; // Default: "com.termux.boot.activities.TermuxBootMainActivity"
+        public static final String TERMUX_BOOT_MAIN_ACTIVITY_NAME = "com.termux.boot.activities.TermuxBootMainActivity"; // Default: "com.termux.boot.activities.TermuxBootMainActivity"
 
         /** Termux:Boot app launcher activity name. This is an `activity-alias` for {@link #TERMUX_BOOT_MAIN_ACTIVITY_NAME} used for launchers with {@link Intent#CATEGORY_LAUNCHER}. */
-        public static final String TERMUX_BOOT_LAUNCHER_ACTIVITY_NAME = TERMUX_BOOT_PACKAGE_NAME + ".activities.TermuxBootLauncherActivity"; // Default: "com.termux.boot.activities.TermuxBootLauncherActivity"
+        public static final String TERMUX_BOOT_LAUNCHER_ACTIVITY_NAME = "com.termux.boot.activities.TermuxBootLauncherActivity"; // Default: "com.termux.boot.activities.TermuxBootLauncherActivity"
 
     }
 
@@ -1235,10 +1235,10 @@ public final class TermuxConstants {
     public static final class TERMUX_FLOAT_APP {
 
         /** Termux:Float app core activity name. */
-        public static final String TERMUX_FLOAT_ACTIVITY_NAME = TERMUX_FLOAT_PACKAGE_NAME + ".TermuxFloatActivity"; // Default: "com.termux.window.TermuxFloatActivity"
+        public static final String TERMUX_FLOAT_ACTIVITY_NAME = "com.termux.window.TermuxFloatActivity"; // Default: "com.termux.window.TermuxFloatActivity"
 
         /** Termux:Float app core service name. */
-        public static final String TERMUX_FLOAT_SERVICE_NAME = TERMUX_FLOAT_PACKAGE_NAME + ".TermuxFloatService"; // Default: "com.termux.window.TermuxFloatService"
+        public static final String TERMUX_FLOAT_SERVICE_NAME = "com.termux.window.TermuxFloatService"; // Default: "com.termux.window.TermuxFloatService"
 
         /**
          * Termux:Float app core service.
@@ -1268,14 +1268,14 @@ public final class TermuxConstants {
     public static final class TERMUX_STYLING_APP {
 
         /** Termux:Styling app core activity name. */
-        public static final String TERMUX_STYLING_ACTIVITY_NAME = TERMUX_STYLING_PACKAGE_NAME + ".TermuxStyleActivity"; // Default: "com.termux.styling.TermuxStyleActivity"
+        public static final String TERMUX_STYLING_ACTIVITY_NAME = "com.termux.styling.TermuxStyleActivity"; // Default: "com.termux.styling.TermuxStyleActivity"
 
 
         /** Termux:Styling app main activity name. */
-        public static final String TERMUX_STYLING_MAIN_ACTIVITY_NAME = TERMUX_STYLING_PACKAGE_NAME + ".activities.TermuxStylingMainActivity"; // Default: "com.termux.styling.activities.TermuxStylingMainActivity"
+        public static final String TERMUX_STYLING_MAIN_ACTIVITY_NAME = "com.termux.styling.activities.TermuxStylingMainActivity"; // Default: "com.termux.styling.activities.TermuxStylingMainActivity"
 
         /** Termux:Styling app launcher activity name. This is an `activity-alias` for {@link #TERMUX_STYLING_MAIN_ACTIVITY_NAME} used for launchers with {@link Intent#CATEGORY_LAUNCHER}. */
-        public static final String TERMUX_STYLING_LAUNCHER_ACTIVITY_NAME = TERMUX_STYLING_PACKAGE_NAME + ".activities.TermuxStylingLauncherActivity"; // Default: "com.termux.styling.activities.TermuxStylingLauncherActivity"
+        public static final String TERMUX_STYLING_LAUNCHER_ACTIVITY_NAME = "com.termux.styling.activities.TermuxStylingLauncherActivity"; // Default: "com.termux.styling.activities.TermuxStylingLauncherActivity"
 
     }
 
@@ -1289,10 +1289,10 @@ public final class TermuxConstants {
     public static final class TERMUX_TASKER_APP {
 
         /** Termux:Tasker app main activity name. */
-        public static final String TERMUX_TASKER_MAIN_ACTIVITY_NAME = TERMUX_TASKER_PACKAGE_NAME + ".activities.TermuxTaskerMainActivity"; // Default: "com.termux.tasker.activities.TermuxTaskerMainActivity"
+        public static final String TERMUX_TASKER_MAIN_ACTIVITY_NAME = "com.termux.tasker.activities.TermuxTaskerMainActivity"; // Default: "com.termux.tasker.activities.TermuxTaskerMainActivity"
 
         /** Termux:Tasker app launcher activity name. This is an `activity-alias` for {@link #TERMUX_TASKER_MAIN_ACTIVITY_NAME} used for launchers with {@link Intent#CATEGORY_LAUNCHER}. */
-        public static final String TERMUX_TASKER_LAUNCHER_ACTIVITY_NAME = TERMUX_TASKER_PACKAGE_NAME + ".activities.TermuxTaskerLauncherActivity"; // Default: "com.termux.tasker.activities.TermuxTaskerLauncherActivity"
+        public static final String TERMUX_TASKER_LAUNCHER_ACTIVITY_NAME = "com.termux.tasker.activities.TermuxTaskerLauncherActivity"; // Default: "com.termux.tasker.activities.TermuxTaskerLauncherActivity"
 
     }
 
@@ -1306,10 +1306,10 @@ public final class TermuxConstants {
     public static final class TERMUX_WIDGET_APP {
 
         /** Termux:Widget app main activity name. */
-        public static final String TERMUX_WIDGET_MAIN_ACTIVITY_NAME = TERMUX_WIDGET_PACKAGE_NAME + ".activities.TermuxWidgetMainActivity"; // Default: "com.termux.widget.activities.TermuxWidgetMainActivity"
+        public static final String TERMUX_WIDGET_MAIN_ACTIVITY_NAME = "com.termux.widget.activities.TermuxWidgetMainActivity"; // Default: "com.termux.widget.activities.TermuxWidgetMainActivity"
 
         /** Termux:Widget app launcher activity name. This is an `activity-alias` for {@link #TERMUX_WIDGET_MAIN_ACTIVITY_NAME} used for launchers with {@link Intent#CATEGORY_LAUNCHER}. */
-        public static final String TERMUX_WIDGET_LAUNCHER_ACTIVITY_NAME = TERMUX_WIDGET_PACKAGE_NAME + ".activities.TermuxWidgetLauncherActivity"; // Default: "com.termux.widget.activities.TermuxWidgetLauncherActivity"
+        public static final String TERMUX_WIDGET_LAUNCHER_ACTIVITY_NAME = "com.termux.widget.activities.TermuxWidgetLauncherActivity"; // Default: "com.termux.widget.activities.TermuxWidgetLauncherActivity"
 
 
         /**  Intent {@code String} extra for the token of the Termux:Widget app shortcuts. */
